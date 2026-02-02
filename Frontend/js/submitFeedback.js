@@ -1,7 +1,8 @@
+import { API_BASE } from "../config.js";
+
 lucide.createIcons();
 
-const url ="http://localhost:3000/api";
-
+const url = API_BASE;
   
   const studentId = "TestStu_001";
 
