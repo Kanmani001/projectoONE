@@ -1,5 +1,6 @@
 lucide.createIcons();
-const url = window.APP_CONFIG.API_BASE;
+
+const url ="http://localhost:3000/api";
 
   
   const studentId = "TestStu_001";
@@ -179,3 +180,4 @@ async function submitFeedback() {
 
   updateCharCount();
   loadEducators();
+
