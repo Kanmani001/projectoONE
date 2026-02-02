@@ -21,7 +21,7 @@ app.use("/api/feedbacks", feedbackRoutes);
 
 
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(process.env.MONGO_URI)
   .then(() => {
     console.log("MongoDB connected");
     app.listen(process.env.PORT, () => {
