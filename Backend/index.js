@@ -29,5 +29,4 @@ mongoose
     console.error("MongoDB error:", err);
   });
 
-// IMPORTANT FOR VERCEL
 module.exports = app;
